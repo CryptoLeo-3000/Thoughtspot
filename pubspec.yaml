@@ -1,0 +1,94 @@
+description: "A new Flutter application."
+name: "flutterapp"
+publish_to: "none"
+version: "1.0.0+1"
+dependencies: 
+  cupertino_icons: "^1.0.5"
+  path_drawing: "^1.0.0"
+  flutter: 
+    sdk: "flutter"
+dev_dependencies: 
+  flutter_test: 
+    sdk: "flutter"
+environment: 
+  sdk: ">=2.12.0 <3.0.0"
+flutter: 
+  assets: 
+    - "assets/images/"
+  fonts: 
+    - 
+      family: "Inter"
+      fonts: 
+        - 
+          asset: "fonts/Inter-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Inter-600.ttf"
+          style: "normal"
+          weight: 600
+        - 
+          asset: "fonts/Inter-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Inter-500.ttf"
+          style: "normal"
+          weight: 500
+    - 
+      family: "Poppins"
+      fonts: 
+        - 
+          asset: "fonts/Poppins-600.ttf"
+          style: "normal"
+          weight: 600
+        - 
+          asset: "fonts/Poppins-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Poppins-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/Poppins-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Poppins-300.ttf"
+          style: "normal"
+          weight: 300
+    - 
+      family: "Raleway"
+      fonts: 
+        - 
+          asset: "fonts/Raleway-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/Raleway-500italic.ttf"
+          style: "italic"
+          weight: 500
+    - 
+      family: "Work Sans"
+      fonts: 
+        - 
+          asset: "fonts/WorkSans-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/WorkSans-italic.ttf"
+          style: "italic"
+          weight: 400
+        - 
+          asset: "fonts/WorkSans-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Rubik"
+      fonts: 
+        - 
+          asset: "fonts/Rubik-700.ttf"
+          style: "normal"
+          weight: 700
+  uses-material-design: true
